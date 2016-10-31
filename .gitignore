@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/RangeSumQueryMutable/RangeSumQueryMutable.vcxproj.filters
+/RangeSumQueryMutable/ReadMe.txt
