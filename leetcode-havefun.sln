@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		tags\Reservoir Sample.md = tags\Reservoir Sample.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{96FD93F4-F928-4804-AEC4-329FD7E687B8}"
@@ -17,6 +18,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{96
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RangeSumQueryMutable", "RangeSumQueryMutable\RangeSumQueryMutable.vcxproj", "{83EB7388-A36E-4A7E-B5A0-2A277636A297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tags", "tags", "{3B26AD7D-81D2-4476-8049-291E623B5F4B}"
+	ProjectSection(SolutionItems) = preProject
+		tags\Binary Indexed Tree.md = tags\Binary Indexed Tree.md
+		tags\Brainteaser.md = tags\Brainteaser.md
+		tags\Reservoir Sample.md = tags\Reservoir Sample.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountOfSmallerNumbersAfterSelf", "CountOfSmallerNumbersAfterSelf\CountOfSmallerNumbersAfterSelf.vcxproj", "{0038AF12-782A-4CC0-8D95-01701BB395F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,11 +44,20 @@ Global
 		{83EB7388-A36E-4A7E-B5A0-2A277636A297}.Release|x64.Build.0 = Release|x64
 		{83EB7388-A36E-4A7E-B5A0-2A277636A297}.Release|x86.ActiveCfg = Release|Win32
 		{83EB7388-A36E-4A7E-B5A0-2A277636A297}.Release|x86.Build.0 = Release|Win32
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Debug|x64.ActiveCfg = Debug|x64
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Debug|x64.Build.0 = Debug|x64
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Debug|x86.Build.0 = Debug|Win32
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Release|x64.ActiveCfg = Release|x64
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Release|x64.Build.0 = Release|x64
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Release|x86.ActiveCfg = Release|Win32
+		{0038AF12-782A-4CC0-8D95-01701BB395F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96FD93F4-F928-4804-AEC4-329FD7E687B8} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
+		{3B26AD7D-81D2-4476-8049-291E623B5F4B} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
 	EndGlobalSection
 EndGlobal
