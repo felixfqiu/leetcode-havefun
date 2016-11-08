@@ -1,14 +1,13 @@
-# 3 public problems
+# Contents
 - Range Sum Query - Mutable
 - Count of Smaller Numbers After Self
-- The Skyline Problem
+- ..\problems\Skyline.md
 
+---
 ## <b>Range Sum Query - Mutable</b>
 see ..\articles\Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md
 
-
-
-
+---
 ## <b>Count of Smaller Numbers After Self</b>
  - 涉及到动态二分排序的，考虑用binary tree
 
@@ -33,19 +32,4 @@ vector<int> countSmaller(vector<int>& nums)
  - cur == NULL 时，判断 val grown toleft？然后 gr->l 或 gr->r
  - = new Node(val)
 
-###[https://asanchina.wordpress.com/](https://asanchina.wordpress.com/2015/12/24/315-count-of-smaller-numbers-after-self/)
-
-
-
-## <b>Skyline Problem</b>
- - 输入数据的数据结构是典型的segment tree？
-
-```
-struct tagSTNode
-{
-    int start, end;
-    int height;
-}
-```
-
-### <i>怎么被调用？</i>
+### [asanchina.wordpress.com](https://asanchina.wordpress.com/2015/12/24/315-count-of-smaller-numbers-after-self/)

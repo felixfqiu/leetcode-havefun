@@ -13,6 +13,10 @@
 ## <i>.\tags</i>
  - Reservoir Sample.md
  - Brainteaser.md
+ - Binary Index Tree.md
+
+## <i>.\problems</i>
+ - Skyline.md
 
 # <i>Essay</i>
  - 想要提高读代码的能力吗？——刷 LeetCode 吧
