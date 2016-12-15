@@ -2,6 +2,9 @@
  - [Feng's GitHub](https://github.com/felixfqiu)
  - [LeetCode Articles](https://leetcode.com/articles/)
  - [LeetCode Problemset](https://leetcode.com/problemset/algorithms/)
+ - [题解（作者：灵魂机器）](https://github.com/soulmachine/leetcode)
+
+## <i>.\题解（作者：灵魂机器）</i>
 
 ## <i>.\articles</i>
 ###[“Two-pointer Technique”](https://leetcode.com/articles/two-pointer-technique/)

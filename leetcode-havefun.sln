@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{96FD93F4-F928-4804-AEC4-329FD7E687B8}"
 	ProjectSection(SolutionItems) = preProject
+		articles\Complexities.md = articles\Complexities.md
 		articles\Hash Table.md = articles\Hash Table.md
 		articles\Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md = articles\Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md
 		articles\String Manipulation.md = articles\String Manipulation.md
@@ -23,6 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tags", "tags", "{3B26AD7D-8
 		tags\Binary Indexed Tree.md = tags\Binary Indexed Tree.md
 		tags\Brainteaser.md = tags\Brainteaser.md
 		tags\Reservoir Sample.md = tags\Reservoir Sample.md
+		tags\TODO：Topological Sort.md = tags\TODO：Topological Sort.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountOfSmallerNumbersAfterSelf", "CountOfSmallerNumbersAfterSelf\CountOfSmallerNumbersAfterSelf.vcxproj", "{0038AF12-782A-4CC0-8D95-01701BB395F5}"
@@ -34,6 +36,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "problems", "problems", "{A0
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skyline", "Skyline\Skyline.vcxproj", "{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RotateArray", "RotateArray\RotateArray.vcxproj", "{2F42C11B-4118-41BF-91BF-BC4763902432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two-pointer Technique", "Two-pointer Technique", "{41F9D0EE-5CAD-4500-9FC7-117206D26208}"
+	ProjectSection(SolutionItems) = preProject
+		articles\Two-pointer Technique.md = articles\Two-pointer Technique.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.vcxproj", "{4AA69911-114E-405C-9835-552CD8A6F8DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.vcxproj", "{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +80,30 @@ Global
 		{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289}.Release|x64.Build.0 = Release|x64
 		{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289}.Release|x86.ActiveCfg = Release|Win32
 		{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289}.Release|x86.Build.0 = Release|Win32
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Debug|x64.ActiveCfg = Debug|x64
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Debug|x64.Build.0 = Debug|x64
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Debug|x86.Build.0 = Debug|Win32
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Release|x64.ActiveCfg = Release|x64
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Release|x64.Build.0 = Release|x64
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Release|x86.ActiveCfg = Release|Win32
+		{2F42C11B-4118-41BF-91BF-BC4763902432}.Release|x86.Build.0 = Release|Win32
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Debug|x64.ActiveCfg = Debug|x64
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Debug|x64.Build.0 = Debug|x64
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Debug|x86.Build.0 = Debug|Win32
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Release|x64.ActiveCfg = Release|x64
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Release|x64.Build.0 = Release|x64
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Release|x86.ActiveCfg = Release|Win32
+		{4AA69911-114E-405C-9835-552CD8A6F8DC}.Release|x86.Build.0 = Release|Win32
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Debug|x64.ActiveCfg = Debug|x64
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Debug|x64.Build.0 = Debug|x64
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Debug|x86.Build.0 = Debug|Win32
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Release|x64.ActiveCfg = Release|x64
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Release|x64.Build.0 = Release|x64
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Release|x86.ActiveCfg = Release|Win32
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +112,9 @@ Global
 		{96FD93F4-F928-4804-AEC4-329FD7E687B8} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
 		{3B26AD7D-81D2-4476-8049-291E623B5F4B} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
 		{A07C4EC2-265C-409E-8063-C4D973A1F040} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
+		{2F42C11B-4118-41BF-91BF-BC4763902432} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
+		{41F9D0EE-5CAD-4500-9FC7-117206D26208} = {96FD93F4-F928-4804-AEC4-329FD7E687B8}
+		{4AA69911-114E-405C-9835-552CD8A6F8DC} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
+		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
 	EndGlobalSection
 EndGlobal
