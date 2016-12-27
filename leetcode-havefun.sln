@@ -14,7 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "articles", "articles", "{96
 		articles\Hash Table.md = articles\Hash Table.md
 		articles\Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md = articles\Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md
 		articles\String Manipulation.md = articles\String Manipulation.md
-		articles\Two-pointer Technique.md = articles\Two-pointer Technique.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RangeSumQueryMutable", "RangeSumQueryMutable\RangeSumQueryMutable.vcxproj", "{83EB7388-A36E-4A7E-B5A0-2A277636A297}"
@@ -24,16 +23,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tags", "tags", "{3B26AD7D-8
 		tags\Binary Indexed Tree.md = tags\Binary Indexed Tree.md
 		tags\Brainteaser.md = tags\Brainteaser.md
 		tags\Reservoir Sample.md = tags\Reservoir Sample.md
-		tags\TODO：Topological Sort.md = tags\TODO：Topological Sort.md
+		tags\TODO：[More Tag].md = tags\TODO：[More Tag].md
+		tags\TODO：Trie.md = tags\TODO：Trie.md
+		tags\TODO：Union Find.md = tags\TODO：Union Find.md
+		tags\Topological Sort.md = tags\Topological Sort.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountOfSmallerNumbersAfterSelf", "CountOfSmallerNumbersAfterSelf\CountOfSmallerNumbersAfterSelf.vcxproj", "{0038AF12-782A-4CC0-8D95-01701BB395F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "problems", "problems", "{A07C4EC2-265C-409E-8063-C4D973A1F040}"
-	ProjectSection(SolutionItems) = preProject
-		problems\Skyline - 副本.md = problems\Skyline - 副本.md
-		problems\Skyline.md = problems\Skyline.md
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skyline", "Skyline\Skyline.vcxproj", "{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289}"
 EndProject
@@ -47,6 +45,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.vcxproj", "{4AA69911-114E-405C-9835-552CD8A6F8DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.vcxproj", "{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline", "Skyline", "{D5562FD4-B1D0-4BF2-8DDA-9A6A2702E33D}"
+	ProjectSection(SolutionItems) = preProject
+		problems\Skyline - 副本.md = problems\Skyline - 副本.md
+		problems\Skyline.md = problems\Skyline.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,11 +114,15 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96FD93F4-F928-4804-AEC4-329FD7E687B8} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
+		{83EB7388-A36E-4A7E-B5A0-2A277636A297} = {A07C4EC2-265C-409E-8063-C4D973A1F040}
 		{3B26AD7D-81D2-4476-8049-291E623B5F4B} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
+		{0038AF12-782A-4CC0-8D95-01701BB395F5} = {A07C4EC2-265C-409E-8063-C4D973A1F040}
 		{A07C4EC2-265C-409E-8063-C4D973A1F040} = {328F88CF-DEB8-4D4C-A9B5-9A96276D35B5}
+		{B2FFD5C8-1CCC-464A-AFA2-4A0A122B3289} = {D5562FD4-B1D0-4BF2-8DDA-9A6A2702E33D}
 		{2F42C11B-4118-41BF-91BF-BC4763902432} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
 		{41F9D0EE-5CAD-4500-9FC7-117206D26208} = {96FD93F4-F928-4804-AEC4-329FD7E687B8}
 		{4AA69911-114E-405C-9835-552CD8A6F8DC} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
 		{F5903D8E-E8AA-42DE-B818-2D0726F9DDF7} = {41F9D0EE-5CAD-4500-9FC7-117206D26208}
+		{D5562FD4-B1D0-4BF2-8DDA-9A6A2702E33D} = {A07C4EC2-265C-409E-8063-C4D973A1F040}
 	EndGlobalSection
 EndGlobal

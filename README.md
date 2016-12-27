@@ -2,23 +2,22 @@
  - [Feng's GitHub](https://github.com/felixfqiu)
  - [LeetCode Articles](https://leetcode.com/articles/)
  - [LeetCode Problemset](https://leetcode.com/problemset/algorithms/)
- - [题解（作者：灵魂机器）](https://github.com/soulmachine/leetcode)
+ - [题解参考（作者：灵魂机器）](https://github.com/soulmachine/leetcode)
 
-## <i>.\题解（作者：灵魂机器）</i>
-
-## <i>.\articles</i>
+## <i>**articles**</i>
 ###[“Two-pointer Technique”](https://leetcode.com/articles/two-pointer-technique/)
  - Two-pointer Technique.md
 
 ###["Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation"](https://leetcode.com/articles/recursive-approach-segment-trees-range-sum-queries-lazy-propagation/#bonus)
  - Recursive Approach to Segment-Trees Range-Sum-Queries Lazy-Propagation.md
 
-## <i>.\tags</i>
+## <i>**tags**</i>
  - Reservoir Sample.md
  - Brainteaser.md
  - Binary Index Tree.md
+ - Topological Sort.md
 
-## <i>.\problems</i>
+## <i>**problems**</i>
  - Skyline.md
 
 # <i>Essay</i>
